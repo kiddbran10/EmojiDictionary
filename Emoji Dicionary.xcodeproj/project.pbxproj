@@ -12,6 +12,7 @@
 		62FEE52D1FBE3495005F6349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FEE52B1FBE3495005F6349 /* Main.storyboard */; };
 		62FEE52F1FBE3495005F6349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FEE52E1FBE3495005F6349 /* Assets.xcassets */; };
 		62FEE5321FBE3495005F6349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FEE5301FBE3495005F6349 /* LaunchScreen.storyboard */; };
+		62FEE53A1FBE7BB7005F6349 /* DefenitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FEE5391FBE7BB7005F6349 /* DefenitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		62FEE52E1FBE3495005F6349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FEE5311FBE3495005F6349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FEE5331FBE3495005F6349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FEE5391FBE7BB7005F6349 /* DefenitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefenitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				62FEE5271FBE3495005F6349 /* AppDelegate.swift */,
 				62FEE5291FBE3495005F6349 /* ViewController.swift */,
+				62FEE5391FBE7BB7005F6349 /* DefenitionViewController.swift */,
 				62FEE52B1FBE3495005F6349 /* Main.storyboard */,
 				62FEE52E1FBE3495005F6349 /* Assets.xcassets */,
 				62FEE5301FBE3495005F6349 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FEE53A1FBE7BB7005F6349 /* DefenitionViewController.swift in Sources */,
 				62FEE52A1FBE3495005F6349 /* ViewController.swift in Sources */,
 				62FEE5281FBE3495005F6349 /* AppDelegate.swift in Sources */,
 			);
