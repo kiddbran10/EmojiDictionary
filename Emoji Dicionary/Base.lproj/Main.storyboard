@@ -62,19 +62,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Object" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEZ-Gn-6iT">
+                                <rect key="frame" x="122" y="494" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release Date: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VK1-V5-PPz">
+                                <rect key="frame" x="113.5" y="535" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="VK1-V5-PPz" firstAttribute="top" secondItem="LEZ-Gn-6iT" secondAttribute="bottom" constant="20" id="0ki-mu-UVg"/>
                             <constraint firstItem="1H3-Xu-A7t" firstAttribute="centerX" secondItem="OgK-nM-Sav" secondAttribute="centerX" id="BVn-MG-s4K"/>
                             <constraint firstItem="1H3-Xu-A7t" firstAttribute="top" secondItem="ork-MB-1Fx" secondAttribute="bottom" constant="100" id="Q4y-5H-eVr"/>
+                            <constraint firstItem="LEZ-Gn-6iT" firstAttribute="centerX" secondItem="OgK-nM-Sav" secondAttribute="centerX" id="dRb-xc-WXL"/>
                             <constraint firstItem="ork-MB-1Fx" firstAttribute="top" secondItem="Bmf-Qq-z6m" secondAttribute="top" constant="50" id="eTG-2N-DbU"/>
+                            <constraint firstItem="LEZ-Gn-6iT" firstAttribute="top" secondItem="1H3-Xu-A7t" secondAttribute="bottom" constant="20" id="hpP-sY-R1v"/>
+                            <constraint firstItem="VK1-V5-PPz" firstAttribute="centerX" secondItem="OgK-nM-Sav" secondAttribute="centerX" id="jQl-zG-xWv"/>
                             <constraint firstItem="ork-MB-1Fx" firstAttribute="centerX" secondItem="OgK-nM-Sav" secondAttribute="centerX" id="xAO-vQ-QIC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bmf-Qq-z6m"/>
                     </view>
                     <connections>
+                        <outlet property="categoryLabel" destination="LEZ-Gn-6iT" id="JVo-C4-7U3"/>
                         <outlet property="defenitionLabel" destination="1H3-Xu-A7t" id="IH1-rI-MHX"/>
                         <outlet property="emojiLabel" destination="ork-MB-1Fx" id="PUj-yx-GaP"/>
+                        <outlet property="releaseDateLabel" destination="VK1-V5-PPz" id="7FN-KT-POn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ood-fP-SYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

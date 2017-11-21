@@ -10,38 +10,26 @@ import UIKit
 
 class DefenitionViewController: UIViewController {
     
+    @IBOutlet weak var releaseDateLabel: UILabel!
+    
+    @IBOutlet weak var categoryLabel: UILabel!
+    
     @IBOutlet weak var defenitionLabel: UILabel!
     
     @IBOutlet weak var emojiLabel: UILabel!
     
-    var emoji = "NO EMOJI"
+    var emoji = Emoji()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        emojiLabel.text = emoji
-        
-        if emoji == "❤️" {
-          defenitionLabel.text = "This is a red heart emoji"
-        }
-        if emoji == "😍" {
-            defenitionLabel.text = "This is an I love you emoji"
-        }
-        if emoji == "😘" {
-            defenitionLabel.text = "This is a kiss emoji"
-        }
-        if emoji == "👽" {
-            defenitionLabel.text = "This is an alien emoji"
-        }
-        if emoji == "🐶" {
-            defenitionLabel.text = "This is a dog emoji"
-        }
-        if emoji == "⛄️" {
-            defenitionLabel.text = "This is a snowman emoji"
-        }
-        
+        emojiLabel.text = emoji.emojiIcon
+        releaseDateLabel.text = "Release Date: \(emoji.releaseDate)"
+        categoryLabel.text = "Category: \(emoji.category)"
+        defenitionLabel.text = emoji.defenition
+
     }
 
     override func didReceiveMemoryWarning() {
